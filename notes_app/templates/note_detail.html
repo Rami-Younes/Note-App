@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3><a href="{% url 'notes:note_edit' note.id%}">Update Note</a> </h3>
+{{note}}<br>
+{{note.content}}<br>
+{{note.created}}<br>
+{{note.active}}<br>
+{{note.tags}}
+
+</body>
+</html>
